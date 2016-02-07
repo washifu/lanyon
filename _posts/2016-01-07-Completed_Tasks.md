@@ -3,8 +3,8 @@ layout: post
 title: SYSU Thesis Blog
 ---
 
-## Completed Tasks
-### Install PCL
+## Completed Tasks ##
+### Install PCL ###
 
 So far I have followed the excellent advice from Leo in his [PCL Configuration Instrutions Under Ubuntu 14.04 LTS](http://222.200.163.209/wiki/projects/pointcloudsvlp/wiki/Configuration_Instrucion_under_Ubuntu_1404_LTS)
 But I ran into this problem when installing PCL:
