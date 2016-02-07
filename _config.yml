@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               SYSU Thesis Blog
 tagline:             'Wasif Islam'
-description:         'JIE SYSU-CMU' how
+description:         'JIE SYSU-CMU'
 url:                 http://washifu.github.io/
 baseurl:             ''
 paginate:            5
