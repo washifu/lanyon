@@ -1,7 +1,8 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           /:title/
+markdown:           redcarpet
 # relative_permalinks: true
 
 # Setup
@@ -19,7 +20,7 @@ author:
   email:             wislam@andrew.cmu.edu
 
 # Custom vars
-version:             1.0.0
+version:             1.1.0
 
 # Includes an icon in the footer for each username you enter
 footer-links:
