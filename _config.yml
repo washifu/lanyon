@@ -16,11 +16,11 @@ paginate:            5
 # About/contact
 author:              
   name:              Wasif Islam
-  url:               
+  url:               'https://www.linkedin.com/in/islamwasif/'
   email:             wislam@andrew.cmu.edu
 
 # Custom vars
-version:             1.1.0
+version:             1.0.0
 
 # Includes an icon in the footer for each username you enter
 footer-links:
