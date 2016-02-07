@@ -3,12 +3,13 @@ layout: post
 title: SYSU Thesis Blog
 ---
 
-##Completed Tasks
-####Install PCL
+## Completed Tasks
+#### Install PCL
 
 So far I have followed the excellent advice from Leo in his [PCL Configuration Instrutions Under Ubuntu 14.04 LTS](http://222.200.163.209/wiki/projects/pointcloudsvlp/wiki/Configuration_Instrucion_under_Ubuntu_1404_LTS)
 
 But I ran into this problem when installing PCL:
+
 ```
 In file included from /home/wasif/PCL/pcl-trunk/release/apps/ui_manual_registration.h:26:0,
                  from /home/wasif/PCL/pcl-trunk/release/apps/include/pcl/apps/../../../../../apps/include/pcl/apps/manual_registration.h:37,
@@ -21,4 +22,5 @@ make[2]: *** [apps/CMakeFiles/pcl_manual_registration.dir/include/pcl/apps/moc_m
 make[1]: *** [apps/CMakeFiles/pcl_manual_registration.dir/all] Error 2
 make: *** [all] Error 2
 ```
+
 Solution: Downgrade Qt5 to Qt4. (PCL, as of 2016年 2月 8, does not fully support Qt5)
