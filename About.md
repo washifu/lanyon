@@ -3,9 +3,20 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Wasif Islam
+
+#Saint Olaf COllege
+##Bachelor of Arts 
+Physics 
+Mathematics 
+Asian Studies
+
+#Sun Yat-sen University | Carnegie Mellon University
+##Master of Science
+Electrical and Computer Engineering
+
+### Contact me
+[wislam@andrew.cmu.edu](mailto:email@domain.com)
 
 {% comment %}
 (In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
