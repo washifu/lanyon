@@ -8,14 +8,14 @@ relative_permalinks: false
 title:               SYSU Thesis Blog
 tagline:             'Wasif Islam'
 description:         'JIE SYSU-CMU'
-url:                 http://washifu.github.io/
+url:                 https://www.linkedin.com/in/islamwasif # http://washifu.github.io/
 baseurl:             'http://washifu.github.io/'
 paginate:            5
 
 # About/contact
 author:              
   name:              Wasif Islam
-  url:               https://www.linkedin.com/in/islamwasif
+  url:               
   email:             wislam@andrew.cmu.edu
 
 # Custom vars
