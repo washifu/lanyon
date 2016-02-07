@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SYSU Thesis Blog
+title: Current Tasks
 ---
 
 ## Current Tasks
