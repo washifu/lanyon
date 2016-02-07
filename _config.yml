@@ -8,7 +8,7 @@ relative_permalinks: false
 title:               SYSU Thesis Blog
 tagline:             'Wasif Islam'
 description:         'JIE SYSU-CMU'
-url:                 https://www.linkedin.com/in/islamwasif # http://washifu.github.io/
+url:                 https://www.linkedin.com/in/islamwasif/ # http://washifu.github.io/
 baseurl:             'http://washifu.github.io/'
 paginate:            5
 
