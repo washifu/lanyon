@@ -22,4 +22,4 @@ make[1]: *** [apps/CMakeFiles/pcl_manual_registration.dir/all] Error 2
 make: *** [all] Error 2
 ```
 
-Solution: Downgrade Qt5 to Qt4. (PCL, as of 2016年 2月 8, does not fully support Qt5)
+Solution: Downgrade Qt5 to Qt4. (PCL, as of 2016年 2月 8日, does not fully support Qt5)
