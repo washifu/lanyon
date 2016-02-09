@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Current Tasks
-permalink: /:title/
 ---
 
 ### Play with PCL 
