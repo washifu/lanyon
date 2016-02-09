@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: page
 title: SYSU Thesis Blog
+permalink: /:title/
 ---
 
 ## Completed Tasks ##
