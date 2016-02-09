@@ -7,7 +7,7 @@ title: SYSU Thesis Blog
 ### Install PCL ###
 
 So far I have followed the excellent advice from Leo in his [PCL Configuration Instrutions Under Ubuntu 14.04 LTS](http://222.200.163.209/wiki/projects/pointcloudsvlp/wiki/Configuration_Instrucion_under_Ubuntu_1404_LTS)
-But I ran into this problem when installing PCL:
+<br>But I ran into this problem when installing PCL:
 
 ```
 In file included from /home/wasif/PCL/pcl-trunk/release/apps/ui_manual_registration.h:26:0,
