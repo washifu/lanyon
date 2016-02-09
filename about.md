@@ -6,7 +6,7 @@ title: About
 Wasif Islam
 
 <dl>
-  <h3>Saint Olaf COllege</h3>
+  <h3>Saint Olaf College</h3>
     <dt>Bachelor of Arts</dt>
     <dd>
       Physics<br>
