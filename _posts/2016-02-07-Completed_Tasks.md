@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Install PCL on user:wasif in Echidna [COMPLETE]
 permalink: /:title/
 ---
