@@ -5,17 +5,20 @@ title: About
 
 Wasif Islam
 
-#Saint Olaf COllege
-##Bachelor of Arts 
-Physics 
-Mathematics 
-Asian Studies
+<dl>
+  <h2>Saint Olaf COllege</h2>
+    <dt>Bachelor of Arts</dt>
+    <dd>
+      Physics<br>
+      Mathematics<br>
+      Asian Studies<br>
+    </dd>
+  <h2>Sun Yat-sen University | Carnegie Mellon University </h2>
+    <dt>Master of Science</dt>
+    <dd>Electrical and Computer Engineering</dd>
+</dl>
 
-#Sun Yat-sen University | Carnegie Mellon University
-##Master of Science
-Electrical and Computer Engineering
-
-### Contact me
+<h2>Contact me</h2>
 [wislam@andrew.cmu.edu](mailto:email@domain.com)
 
 {% comment %}
