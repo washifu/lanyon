@@ -4,6 +4,8 @@ title: Current Tasks
 permalink: /:title/
 ---
 
-### Play with PCL <br>
-### Try Many Demos <br> 
+### Play with PCL 
+
+### Try Many Demos 
+
 ### Figure Out Plane Finder
