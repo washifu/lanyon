@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Install PCL on user:wasif in Echidna [COMPLETE]
+title: Install PCL on wasif in Echidna [DONE]
 permalink: /:title/
 ---
 
