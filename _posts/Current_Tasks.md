@@ -5,5 +5,5 @@ permalink: /:title/
 ---
 
 ## Play with PCL
-<h2> Try Many Demoss </h2>
+<h2> Try Many Demos </h2>
 <h3> Figure Out Plane Finder </h3>
