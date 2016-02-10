@@ -1,6 +1,6 @@
 ---
 layout: page
-tite: Completed Tasks
+title: Completed Tasks
 ---
  
  ####Posts below
