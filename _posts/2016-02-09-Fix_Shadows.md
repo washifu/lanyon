@@ -19,4 +19,5 @@ There doesn't seem to be a calibration file for VLP-16 but PCL does actually hav
 > visualization/tools/vlp_grabber.cpp
 
 ### Next Step: 
-  * Compile these files. If too hasslesome, try to make the HDL Grabber compatible with VLP-16.
+  * Compile these files. 
+  * If too hasslesome, try to make the HDL Grabber compatible with VLP-16.
