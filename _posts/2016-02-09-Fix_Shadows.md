@@ -11,8 +11,10 @@ I ran some HDL-32 sample data sets and confirmed no occurence of these shadows.
 All the data sets I've collected with the Velodyne VLP-16 have these shadows as do the sample data sets Leo has left behind.
 
 There doesn't seem to be a calibration file for VLP-16 but PCL does actually have a *vlp_viewer.cpp* and *vlp_grabber.cpp* in the library.
+
 *vlp_viewer* 
 > io/src/vlp_viewer.cpp
+
 *vlp_grabber* 
 > visualization/tools/vlp_grabber.cpp
 
