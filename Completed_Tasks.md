@@ -2,5 +2,5 @@
 layout: page
 title: Completed Tasks
 ---
- 
- ####Posts below
+
+#### For now, just go to Home.
