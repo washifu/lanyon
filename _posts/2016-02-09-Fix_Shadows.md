@@ -15,11 +15,11 @@ I have found the VLP-16 and HDL-32 calibration files thanks to Tsukasa Sugiura's
 
 *vlp_viewer*
 
-> io/src/vlp_viewer.cpp
+> visualization/tools/vlp_viewer.cpp
 
 *vlp_grabber*
 
-> visualization/tools/vlp_grabber.cpp
+> io/src/vlp_grabber.cpp
 
 ### Next Step: 
   * Compile these files. 
