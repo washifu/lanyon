@@ -10,7 +10,7 @@ It seems that the openni\_grabber demo is designed for HDL-32 data sets as descr
 All the data sets I've collected with the Velodyne VLP-16 have these shadows as do the sample data sets Leo has left behind. <br>
 I ran some HDL-32 sample data sets and confirmed no occurence of these shadows, so it seems that the program is calibrated for the HDL-32 and not the VLP-16.
 
-~~There doesn't seem to be a calibration file for VLP-16 but~~ PCL does actually have a *vlp_viewer.cpp* and *vlp_grabber.cpp* in the library.
+<s>There doesn't seem to be a calibration file for VLP-16 but</s> PCL does actually have a *vlp_viewer.cpp* and *vlp_grabber.cpp* in the library.
 I have found the VLP-16 and HDL-32 calibration files thanks to Tsukasa Sugiura's comment on his video of [Drawing VLP-16 Data using PCL](https://www.youtube.com/watch?v=7BUFxkyH1r0 "YouTube Video").
 
 *vlp_viewer*
@@ -23,5 +23,5 @@ I have found the VLP-16 and HDL-32 calibration files thanks to Tsukasa Sugiura's
 
 ### Next Step: 
   * Compile these files. 
-  * -If too hasslesome, try to make the HDL Grabber compatible with VLP-16.- [DONE]
+  * If too hasslesome, try to make the HDL Grabber compatible with VLP-16. [DONE]
   * I am still curious about the other programs, but will leave compiling those as secondary tasks.
