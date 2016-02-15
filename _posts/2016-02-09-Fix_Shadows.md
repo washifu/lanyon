@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fix Shadows
+title: Fix Shadows [DONE~]
 ---
 
 When the openni_grabber demo is run with any VLP-16 data set, two (or more) copies of all the points appear above/below the first set of points. The points are not vertical translations but appear to be angular translations from the LiDAR origin.
