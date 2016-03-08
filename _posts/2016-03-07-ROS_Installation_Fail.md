@@ -25,7 +25,7 @@ sudo rosdep init
 rosdep update
 ```
 
-Installing core ROS packages
+Installing core ROS packages <\br>
 Create a catkin workspace
 
 ```
