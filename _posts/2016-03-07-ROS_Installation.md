@@ -1,9 +1,9 @@
 ---
 layout: post
-title: ROS Installation on Echidna
+title: ROS Installation on Echidna Failures
 ---
 
-I tried a source install for ROS Jade but failed and then did a normal ```sudo apt-get install ros-jade-desktop-full```
+### Failure Record
 
 ## Instructions for Source install of ROS Jade [FAIL]
 [Install ROS from source](http://wiki.ros.org/jade/Installation/Source "ROS")
