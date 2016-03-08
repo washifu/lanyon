@@ -3,7 +3,7 @@ layout: post
 title: ROS Installation on Echidna Success
 ---
 
-## Instructions for [Source Install](http://wiki.ros.org/jade/Installation/Source "ROS") of ROS Jade [FAIL]
+## Instructions for [Source Install](http://wiki.ros.org/jade/Installation/Source "ROS") of ROS Jade
 [Install ROS from source](http://wiki.ros.org/jade/Installation/Source "ROS")
 
 First Check the following in Software & Updates
