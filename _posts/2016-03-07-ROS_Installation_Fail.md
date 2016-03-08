@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ROS Installation on Echidna Failures
+title: ROS Installation on Echidna Fail
 ---
 
 ### Failure Record
@@ -357,27 +357,4 @@ is only available from another source
 E: Package 'libfltk1.1-dev' has no installation candidate
 ```
 
-{%comment%}
-Initialize rosdep
-
-```
-sudo rosdep init
-rosdep update
-```
-
-Environment setup
-
-```
-echo "source /opt/ros/jade/setup.bash" >> ~/.bashrc
-source ~/.bashrc
-```
-
-Getting rosinstall
-
-```
-sudo apt-get install python-rosinstall
-```
-{/%comment%}
-
-
-
+Sad day
