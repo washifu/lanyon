@@ -5,10 +5,9 @@ title: ROS Installation on Echidna Failures
 
 ### Failure Record
 
-## Instructions for Source install of ROS Jade [FAIL]
-[Install ROS from source](http://wiki.ros.org/jade/Installation/Source "ROS")
-Bootstrap Dependencies to facilitate the download and management of ROS
+## Instructions for [Source Install](http://wiki.ros.org/jade/Installation/Source "ROS") of ROS Jade [FAIL]
 
+Bootstrap Dependencies to facilitate the download and management of ROS
 Making sure to have buid tools like compiler, CMake, etc.
 
 ```
