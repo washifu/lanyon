@@ -9,7 +9,7 @@ Note that with two ROS distros, sourcing the setup.bash should be done manually 
 
 Bootstrap dependencies and rosdep has already been installed.
 
-Make a new directory for Indigo. 
+Make a new directory for Indigo
 
 ```
 $ mkdir ~/ros_catkin_ws_indigo
@@ -46,7 +46,7 @@ ERROR: the following rosdeps failed to install
   apt: command [sudo -H apt-get install -y gazebo2] failed
 ```
 
-This is because the gazebo version supported by indigo (gazebo2) and jade (gazebo5) [conflict](http://answers.ros.org/question/208334/gazebo-version-collides-between-indigo-and-jade/). <br>
+This is because the gazebo version supported by indigo (gazebo2) and jade (gazebo5) [conflict](http://answers.ros.org/question/208334/gazebo-version-collides-between-indigo-and-jade/ "Article about gazebo conflicts"). <br>
 Sadly, this means uninstalling gazebo5 and breaking jade dependencies.
 
 Fortunately, I found this [patch](https://askubuntu.com/questions/551749/ros-wont-install-on-14-04-dependency-hell "See Answers"):
@@ -111,10 +111,22 @@ Processing triggers for libc-bin (2.19-0ubuntu6.6) ...
 So it looks like gazebo5-plugin-base was removed. Jade will likely have some issues. <br>
 Moving on.
 
-Invoke catkin\_make\_isolated. (and get some coffee)
+Resolve Dependencies Again
+
+```
+rosdep install --from-paths src --ignore-src --rosdistro indigo -y
+```
+
+Invoke catkin\_make\_isolated (and get some coffee)
 
 ```
 ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release
+```
+
+Source your setup.bash and you are good to go!
+
+```
+source ~/ros_catkin_ws/install_isolated/setup.bash
 ```
 
 
