@@ -126,7 +126,9 @@ Invoke catkin\_make\_isolated (and get some coffee)
 Source your setup.bash and you are good to go!
 
 ```
-source ~/ros_catkin_ws/install_isolated/setup.bash
+source ~/ros_catkin_ws_indigo/install_isolated/setup.bash
 ```
+
+Make sure to change the ```ros_catkin_ws``` to ```ros_catkin_ws_indigo``` or whatever directory name you used for indigo.
 
 
