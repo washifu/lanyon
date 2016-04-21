@@ -3,4 +3,7 @@ layout: page
 title: Current Tasks
 ---
 
-### This page is under construction
+* Configure .pcd viewer
+* Decide whether to record in .pcd or .pcap
+* Choose Surface Classification Method
+* Make Powerpoint Slides for Poster Presentation
