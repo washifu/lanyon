@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: ROS Installation on Echidna Fail
 ---
 
