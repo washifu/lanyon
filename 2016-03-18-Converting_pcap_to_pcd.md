@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Converting .pcap to .pcd
 ---
 
