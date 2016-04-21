@@ -27,5 +27,3 @@ I have found the VLP-16 and HDL-32 calibration files thanks to Tsukasa Sugiura's
   * I am still curious about the other programs, but will leave compiling those as secondary tasks. [DONE]
   
 After troubleshooting the vlp\_viewer from PCL, I have realized that compiling this program outside of the PCL repository leads to many build issues. Henceforth I will just make a branch in the PCL repository and make adaptations to the programs and run the programs from the `pcl-trunk/x86_64/bin` folder.  
-
-[DONE]
