@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Install PCL on wasif in Echidna [DONE]
+title: Install PCL on wasif in Echidna
 ---
-
 
 ### Install PCL ###
 
@@ -23,3 +22,5 @@ make: *** [all] Error 2
 ```
 
 Solution: Downgrade Qt5 to Qt4. (PCL, as of 2016年 2月 8日, does not fully support Qt5)
+
+[DONE]
