@@ -4,9 +4,10 @@ title: Current Tasks
 ---
 ## Immediate Tasks
 
-* Configure .pcd viewer
-* Decide whether to record in .pcd or .pcap
-* Choose Surface Classification Method
+* Configure .pcd viewer [DONE]
+* Decide whether to record in .pcd or .pcap -- .pcap will require VLP conversion
+* Figure out how to convert VLP-16 .pcap to .pcd (Shadows!!)
+* Choose Surface Classification Method -- Using PCL's normal with KDtree
 * Record Dataset
 
 ## Near Future Tasks
