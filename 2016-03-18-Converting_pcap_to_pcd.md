@@ -56,7 +56,7 @@ Open a new terminal and source to velodyne workspace.
 source ~/velodyne_ws/devel/setup.bash
 ```
 
-Run velodyne_pointcload to open the .pcap file as a point cloud in ROS (no visualization)
+Run velodyne_pointcloud to open the .pcap file as a point cloud in ROS (no visualization)
 
 ```
 roslaunch velodyne_pointcloud 32e_points.launch pcap:=path/of/your/file.pcap
