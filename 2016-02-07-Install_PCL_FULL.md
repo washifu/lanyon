@@ -3,12 +3,10 @@ layout: page
 title: Install PCL on wasif in Echidna FULL
 ---
 
-## Full Instructions to Install PCL (Copied from Leo's Wiki Post)
+## Full Instructions to Install PCL (Copy/Pasted from Leo's Wiki Post)
 
 
-h1. Configuration Instruction under Ubuntu 14.04 LTS
-
-If there's any problem please email to Leo(sevin136492469@gmail.com). :-P
+# Configuration Instruction under Ubuntu 14.04 LTS
 
 <pre>
 Because of the high demands of PCL library dependence， it will be better to compile the PCL source code.
@@ -18,7 +16,7 @@ In the introduction, I will provide the detailed illustration of the dependence 
 Under Windows or Mac platform, we could download the "VeloView software":http://www.paraview.org/Wiki/VeloView to scan the data directly.
 However, the Velodyne LiDAR company doesn't provide the official version for Linux.
 
-h2. Download the latest PCL version
+# Download the latest PCL version
 
 To install the latest PCL on Ubuntu, +git+ is necessary. Install it by:
 > sudo apt-get install git
@@ -31,19 +29,19 @@ Change directory to a place where to store the source code, then proceed to clon
 
 Now change directory to pcl you will see the PCL source code. Before proceeding with building the PCL libraries, there'are also some prerequisites needed.
 
-h2. Install 3rd party Prerequisites
+# Install 3rd party Prerequisites
 
 Compiling PCL especially for the VLP sensor requires a host of prerequisites, including +cmake,git+ and several other packages.
 I will record the function of the packages step by step to unfold their effects in case of certain needs.
 There're 3 sorts of dependence, which are 
 (Anything related to the cmake installation please refer to [[PCL based on Ubuntu 14.04]], I have illustrated the steps in detail there.)
 
-h3. Fundamental part
+# Fundamental part
 
 This one is for the g++,cmake and some essential build dependence, which should be already installed or finished at the Ubuntu PCL environment build before, but still need to check them.
 > sudo apt-get install g++ cmake cmake-gui build-essential
 
-h3. Mandatory part
+# Mandatory part
 
 In this part I will list the package, required for the compilation and usage of the PCL libraries.
 
@@ -84,7 +82,7 @@ Some other dependence for the compilation:
 > sudo apt-get install graphviz mono-complete
 > sudo apt-get install libglew-dev libsuitesparse-dev
 
-h3. Optional part
+# Optional part
 
 This are the optional part in the official page, but out of the VLP numerous dependence, some of them are mandatory in fact. I will mark them.
 
@@ -141,7 +139,7 @@ After the generation of ??OpenNIDevEnvironment?? file then add the environment v
 So that the path of the Include and Redist folder will be imported to the environment variables: @OPENNI2_INCLUDE@ and @OPENNI2_REDIST@.
 (Note: Reboot needed and check it by @echo@ command.)
 
-h3. Summary
+# Summary
 
 To summarize the compile process, I install the below requests:
 
@@ -170,7 +168,7 @@ So, it's possible to use:
 > sudo apt-get install pcl_*
 as a complementary of PCL basic dependence.
 
-h2. Compile and Install PCL
+# Compile and Install PCL
 
 PCL is compiled using the cmake or cmake-gui utility. Change directory to the PCL source directory and enter the following commands:
 > mkdir release
@@ -183,13 +181,13 @@ Finally, to install PCL, enter the command:
 > sudo make install
 The library files are installed at /usr/local/lib, and the header files are installed at /usr/local/include/pcl-1.8 (or whatever the version is).
 
-h2. Run the test example
+# Run the test example
 
 [[Velodyne 16 Mapping(VLP-16) Grabber Demo]]
 
 ---
 
-h2. ??+Reference:+??
+# +Reference:+
 
 "INSTALLING AND RUNNING POINT CLOUD LIBRARY ON UBUNTU":http://larrylisky.com/2014/03/03/installing-pcl-on-ubuntu/
 "Compiling Point Cloud Library from Source":http://www.pointclouds.org/downloads/source.html
