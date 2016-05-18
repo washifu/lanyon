@@ -66,6 +66,6 @@ $sudo make -j8 install
 ```
 
 This will store all the headers in ```/usr/local/include/pcl-1.8/pcl/``` <br>
-By the way, the ```-j8``` just uses all 8 logical cores to thread through the compiling faster, which even then takes 15 minutes.
+By the way, the ```-j8``` just uses all 8 logical cores to thread through the compiling faster, which, even then, takes 15 minutes.
 
 Now you can make Stand-Alone Projects for quick and dirty testing!
