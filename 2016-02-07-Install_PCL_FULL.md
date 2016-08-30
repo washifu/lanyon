@@ -75,6 +75,7 @@ QT, for the GUI of PCL and can provide some extra choice for the PCL visualizer.
 Answer OK to continue, but you may want to follow the recommendation and install any missing components. For the blog editor, he needed a couple of missing components to enable full operation of Phonon:
 
 > sudo apt-get install phonon-backend-gstreamer
+
 > sudo apt-get install phonon-backend-vlc
 
 For the analyze of .pcap file, *_+extremely crucial in this part!!!+_* This is the key point why I have to re-compile the PCL library for more than 4 times.
@@ -84,12 +85,19 @@ For the analyze of .pcap file, *_+extremely crucial in this part!!!+_* This is t
 Some other dependence for the compilation:
 
 > sudo apt-get install git-core freeglut3-dev pkg-config
+
 > sudo apt-get install doxygen
+
 > sudo apt-get install mpi-default-dev openmpi-bin openmpi-common
+
 > sudo apt-get install libusb-dev libusb-1.0-0-dev
+
 > sudo apt-get install libgtest-dev
+
 > sudo apt-get install libxmu-dev libxi-dev
+
 > sudo apt-get install graphviz mono-complete
+
 > sudo apt-get install libglew-dev libsuitesparse-dev
 
 # Optional part
@@ -118,13 +126,17 @@ There're 2 versions, OpenNI 1.x(called OpenNI) and OpenNI 2(called OpenNI2) resp
 And change the branch to unstable:
 
 > cd openni
+
 > git checkout unstable
 
 Run these lines to install OpenNI:
 
 > cd Platform/Linux/CreateRedist/
+
 > chmod +x RedistMaker
+
 > ./RedistMaker
+
 > cd ../Redist/OpenNI-Bin-Dev-Linux-x64-v1.5.8.5
 
 Maybe not that version, just change it according to the real condition.
@@ -149,7 +161,9 @@ For me, the latest version will be 2.2.0.33 but you can check it on the "OpenNI2
 Decompress it:
 
 > unzip OpenNI-Linux-x64-2.2.0.33.tar.zip
+
 > tar -xjf OpenNI-Linux-x64-2.2.tar.bz2
+
 > cd OpenNI-Linux-x64-2.2
 
 It's same to change the version number so that the command will match the actual one.
@@ -170,20 +184,35 @@ So that the path of the Include and Redist folder will be imported to the enviro
 To summarize the compile process, I install the below requests:
 
 > sudo apt-get install libboost-all-dev
+
 > sudo apt-get install libeigen3-dev
+
 > sudo apt-get install libflann1 libflann-dev
+
 > sudo apt-get install libvtk5.8-qt4 libvtk5.8 libvtk5-dev
+
 > sudo apt-get install qt-sdk libqt4-opengl-dev
+
 > sudo apt-get install libqhull* libqhull-dev
+
 > sudo apt-get install libpcap-dev
+
 > sudo apt-get install git-core freeglut3-dev pkg-config
+
 > sudo apt-get install doxygen
+
 > sudo apt-get install mpi-default-dev openmpi-bin openmpi-common
+
 > sudo apt-get install libusb-dev libusb-1.0-0-dev
+
 > sudo apt-get install libgtest-dev
+
 > sudo apt-get install libxmu-dev libxi-dev
+
 > sudo apt-get install graphviz mono-complete
+
 > sudo apt-get install libglew-dev libsuitesparse-dev
+
 > sudo apt-get install openjdk-7-jdk openjdk-7-jre
 
 plus the procedure of OpenNI.
@@ -201,8 +230,11 @@ as a complementary of PCL basic dependence.
 PCL is compiled using the cmake or cmake-gui utility. Change directory to the PCL source directory and enter the following commands:
 
 > mkdir release
+
 > cd release
+
 > cmake -DCMAKE_BUILD_TYPE=None -DBUILD_GPU=ON -DBUILD_apps=ON -DBUILD_examples=ON ..
+
 > make
 
 (Note: For some reason the use of -DCMAKE_BUILD_TYPE=Release will lead to assembler error, but -DCMAKE_BUILD_TYPE=None will build just fine.)
