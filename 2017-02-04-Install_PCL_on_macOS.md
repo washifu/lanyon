@@ -9,12 +9,14 @@ title: Install PCL on macOS
 
 I installed with [Homebrew](http://www.pointclouds.org/documentation/tutorials/installing_homebrew.php):
 
-Prepare Homebrew (if you have not already)
+Prepare Homebrew (if you have not already):
 
 ```
 brew update
 brew tap homebrew/science
 ```
+
+Install PCL with Homebrew:
 
 ```
 brew install pcl --with-examples --with-openni --with-openni2 --with-qt5 --with-surface_on_nurbs
