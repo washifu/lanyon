@@ -10,7 +10,7 @@ title:               SYSU Thesis Blog
 tagline:             'Wasif Islam'
 description:         'JIE SYSU-CMU'
 url:                 'https://washifu.github.io'
-baseurl:             'https://washifu.github.io/thesis'
+baseurl:             'https://washifu.github.io/thesisblog'
 paginate:            5
 
 # About/contact
