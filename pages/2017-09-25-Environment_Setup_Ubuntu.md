@@ -33,6 +33,7 @@ Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfor
 + Open MPI 
 + LibUSB
 + Phonon
++ PROJ
 
 ### OpenNI Dependencies
 + Doxygen
@@ -100,6 +101,11 @@ libpcap Additional Packages:
 #### LibUSB
 ```
 sudo apt-get install libusb-dev
+```
+
+#### PROJ
+```
+sudo apt-get install libproj-dev
 ```
 
 #### Phonon
@@ -170,9 +176,16 @@ cd Packaging/Linux/
 sudo ./install.sh
 ```
 Add the definitions of ```OPENNI2_INCLUDE``` and ```OPENNI2_REDIST``` from the new 
-```OpenNIDevEnvironment to ```~/.bashrc``` manually or with ```cat```.
+```OpenNIDevEnvironment to ```~/.bashrc``` manually.
+Add the following definitions to ```~/.bashr``` replace ```root``` with the address of your 
+OpenNI2 directory.
 ```
-cat OpenNIDevEnvironment >> ~/.bashrc
+export OPENNI2_INCLUDE=root/OpenNI2/Packaging/Linux/Include
+export OPENNI2_REDIST=root/OpenNI2/Packaging/Linux/Redist
+
+export OPENNI2_INCLUDE_DIRS=root/OpenNI2/Packaging/Linux/Include
+export OPENNI2_LIBRARY=root/OpenNI2/Packaging/Linux/Include
+```
 source ~/.bashrch
 ```
 
@@ -192,5 +205,3 @@ Configure the cmake file and set the following options:
 
 
 Go get some coffee and check your email.
-
-
