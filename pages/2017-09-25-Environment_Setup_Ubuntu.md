@@ -16,25 +16,29 @@ My apt-get also installed the following additional packages
 `cmake-data git-man liberror-perl libjsoncpp1`  
 
 ### Dependencies
-This is the struggle. Best of luck.  
-You essentially need the following dependencies:
-+ boost
-+ eigen
-+ flann 
-+ openjdk
-+ vtk-qt
-+ qhull
-+ openni openni2
+This thesis is built using the Point Cloud Library.
++ PCL
 
-### More Dependencies
+### PCL Dependencies
+Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfortable.
++ Boost
++ Eigen
++ FLANN
++ openjdk
++ VTK-Qt
++ QHull
++ OpenNI OpenNI2
+
+### More PCL Dependencies
 + pcap
 + gl glut glew xmu xi
 + doxygen mpi usb graphviz
++ phonon
 
 + libqt-opengl-dev qt-sdk
-+ libusb1.0.0-dev libgtest-dev mono-complete
++ libgtest-dev mono-complete
 + libsuitesparse-dev 
-+ phonon-backend-gstreamer phonon-backend-vlc
+
 
 #### Boost
 ```
@@ -69,12 +73,19 @@ sudo apt-get install libpcap-dev
 libpcap Additional Packages:
 ```libpcap0.8-dev```
 
+#### Phonon
+```
+sudo apt-get install phonon-backend-gstreamer phonon-backend-vlc
+```
+Phonon Additional Packages:
+```liba52-0.7.4 libass5 libbasicusageenvironment1 libcddb2 libchromaprint0 libdc1394-22 libdca0 libdirectfb-1.2-9 libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgroupsock8 libiso9660-8 libkate1 liblivemedia50 libmad0 libmatroska6v5 libmpcdec6 libmpeg2-4 libphonon4 libpostproc-ffmpeg53 libproxy-tools libqt4-opengl libqt5x11extras5 libresid-builder0c2a libsdl-image1.2 libsdl1.2debian libsidplay2v5 libssh2-1 libupnp6 libusageenvironment3 libva-drm1 libva-x11-1 libvcdinfo0 libvlc5 libvlccore8 libxcb-composite0 libxcb-xv0 phonon-backend-gstreamer phonon-backend-gstreamer-common phonon-backend-vlc vlc vlc-data vlc-nox vlc-plugin-notify vlc-plugin-samba```
+
 #### Other Dependencies
 ```
-sudo apt-get install doxygen libusb-dev mpi-default-dev
+sudo apt-get install doxygen libusb-dev libusb-1.0-0-dev mpi-default-dev
 ```
 Additional Packages:
-```libclang1-3.6 libllvm3.6v5 libobjc-5-dev libobjc4```
+```libclang1-3.6 libllvm3.6v5 libobjc-5-dev libobjc4 libusb-1.0-doc ```
 
 #### VTK-Qt
 ```
@@ -88,14 +99,23 @@ VTK-Qt Additional Packages:
 sudo apt-get install libqhull-dev
 ```
 QHull Additional Packages: 
-```libqhull-dev libqhull7```
+```libqhull libqhull7```
 
 #### OpenNI OpenNI2
+OpenNI and OpenNI2 cannot be installed via apt-get.  
+The sdk binaries and links to git repos may be found at [https://structure.io/openni](https://structure.io/openni).  
+  
+First, let's tackle OpenNI:
 ```
-sudo apt-get install
+git clone https://github.com/OpenNI/OpenNI.git
+cd openni
+
 ```
 
-
+Second, let's take care of OpenNI2:
+```
+git clone https://github.com/occipital/OpenNI2.git
+```
 
 
 
