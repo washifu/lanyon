@@ -186,6 +186,8 @@ export OPENNI2_REDIST=root/OpenNI2/Packaging/Linux/Redist
 export OPENNI2_INCLUDE_DIRS=root/OpenNI2/Packaging/Linux/Include
 export OPENNI2_LIBRARY=root/OpenNI2/Packaging/Linux/Include
 ```
+Lastly,
+```
 source ~/.bashrch
 ```
 
