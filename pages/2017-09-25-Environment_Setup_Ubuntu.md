@@ -5,7 +5,7 @@ title: Environment Setup
 
 # Environment Setup  
   
-Install [Ubuntu](https://www.ubuntu.com/download/desktop) 16.04.3 (Any Ubuntu 14.04+ should be fine)
+Install [Ubuntu](https://www.ubuntu.com/download/desktop) 16.04.3 (Any Ubuntu 12+ should be fine)
   
 ### Get The Basics
 ```
@@ -21,18 +21,20 @@ You essentially need the following dependencies:
 + boost
 + eigen
 + flann 
-+ openni openni2
-+ qhull
-+ vtk-qt
 + openjdk
++ vtk-qt
++ qhull
++ openni openni2
 
-### Other Dependencies
+### More Dependencies
 + pcap
 + gl glut glew xmu xi
 + doxygen mpi usb graphviz
 
-### More Dependencies
-
++ libqt-opengl-dev qt-sdk
++ libusb1.0.0-dev libgtest-dev mono-complete
++ libsuitesparse-dev 
++ phonon-backend-gstreamer phonon-backend-vlc
 
 #### Boost
 ```
@@ -74,7 +76,6 @@ sudo apt-get install doxygen libusb-dev mpi-default-dev
 Additional Packages:
 ```libclang1-3.6 libllvm3.6v5 libobjc-5-dev libobjc4```
 
-
 #### VTK-Qt
 ```
 sudo apt-get install libvtk6-qt-dev
@@ -84,8 +85,10 @@ VTK-Qt Additional Packages:
 
 #### QHull
 ```
-sudo apt-get install
+sudo apt-get install libqhull-dev
 ```
+QHull Additional Packages: 
+```libqhull-dev libqhull7```
 
 #### OpenNI OpenNI2
 ```
