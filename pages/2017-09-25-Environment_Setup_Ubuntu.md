@@ -144,7 +144,7 @@ cd OpenNI
 ```
 Create an ```unstable``` branch to save yourself in the future
 ```
-git checkout unstable
+git checkout -b unstable
 ```
 Install OpenNI
 ```
@@ -163,8 +163,22 @@ Second, let's take care of OpenNI2:
 ```
 git clone https://github.com/occipital/OpenNI2.git
 ```
-
-
+Create an ```unstable``` branch to save yourself in the future
+```
+git checkout -b unstable
+make
+```
+Install OpenNI2
+```
+cd Packaging/Linux/
+sudo ./install.sh
+```
+Add the definitions of ```OPENNI2_INCLUDE``` and ```OPENNI2_REDIST``` from the new 
+```OpenNIDevEnvironment to ```~/.bashrc``` manually or with ```cat```.
+```
+cat OpenNIDevEnvironment >> ~/.bashrc
+source ~/.bashrch
+```
 
 ### Point Cloud Library  
 Finally ready to build PCL!
