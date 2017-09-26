@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Install PCL on wasif in Echidna FULL
+title: Environment Setup
 ---
 
 # Environment Setup  
@@ -9,6 +9,7 @@ Install Ubuntu 16.04.3 (Any Ubuntu 14.04+ should be fine)
   
 ### Get The Basics
 > sudo apt-get install git g++ cmake cmake-curses-gui  
+  
 My apt-get also installed the following additional packages  
 `cmake cmake-curses-gui cmake-data git git-man liberror-perl libjsoncpp1`  
 
@@ -27,6 +28,7 @@ You essentially need the following dependencies:
 ### Point Cloud Library  
 Clone the pcl git repo
 > git clone https://github.com/PointCloudLibrary/pcl.git  
+
 Create a build directory and compile PCL
 ```
 cd pcl
