@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Code Environment Setup
+comments: true
 ---
 
 Install [Ubuntu](https://www.ubuntu.com/download/desktop) 16.04.3 (Any Ubuntu 12+ should be fine)
