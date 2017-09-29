@@ -76,19 +76,19 @@ Boost Additional Packages:
 #### Eigen
 ```
 sudo apt-get install libeigen3-dev
-```
+```  
 
 #### FLANN
 ```
 sudo apt-get install libflann-dev
-```
+```  
 FLANN Additional Packages:
-```libflann1.8```
+```libflann1.8```  
 
 #### GL GLUT GLEW XMU XI
 ```
 sudo apt-get install freeglut3-dev libglew-dev libxmu-dev libxi-dev
-```
+```  
 Additional Packages:
 ```freeglut libxmu-headers```
 
