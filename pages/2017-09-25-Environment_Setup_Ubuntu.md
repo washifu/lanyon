@@ -177,7 +177,7 @@ cd Packaging/Linux/
 sudo ./install.sh
 ```
 Add the definitions of ```OPENNI2_INCLUDE``` and ```OPENNI2_REDIST``` from the new 
-```OpenNIDevEnvironment to ```~/.bashrc``` manually.
+```OpenNIDevEnvironment``` to ```~/.bashrc``` manually.
 Add the following definitions to ```~/.bashr``` replace ```root``` with the address of your 
 OpenNI2 directory.
 ```
@@ -205,6 +205,11 @@ mkdir build && cd build
 ccmake ..
 ```
 Configure the cmake file and set the following options:
+~~~~
 
+```
+cmake ..
+make -j8
+```
 
 Go get some coffee and check your email.
