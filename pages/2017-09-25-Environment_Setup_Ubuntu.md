@@ -128,88 +128,89 @@ sudo apt-get install libvtk6-qt-dev
 VTK-Qt Additional Packages:  
 `comerr-dev hdf5-helpers i965-va-driver javascript-common krb5-multidev libaacs0 libaec-dev libaec0 libarmadillo6 libarpack2 libavcodec-dev libavcodec-ffmpeg56 libavformat-dev libavformat-ffmpeg56 libavutil-dev libavutil-ffmpeg54 libbdplus0 libblas-common libblas3 libbluray1 libcrystalhd3 libcurl4-gnutls-dev libdap-dev libdap17v5 libdapclient6v5 libdapserver7v5 libdrm-dev libegl1-mesa-dev libepsilon1 libfontconfig1-dev libfreetype6-dev libfreexl1 libgdal-dev libgdal1i libgeos-3.5.0 libgeos-c1v5 libgeos-dev libgfortran3 libgif-dev libgif7 libgl1-mesa-dev libgl2ps-dev libgl2ps0 libgles2-mesa libgles2-mesa-dev libglu1-mesa-dev libgme0 libgsm1 libgssrpc4 libhdf4-0-alt libhdf4-alt-dev libhdf5-10 libhdf5-cpp-11 libhdf5-dev libice-dev libjasper-dev libjbig-dev libjpeg-dev libjpeg-turbo8-dev libjpeg8-dev libjs-jquery libjs-sphinxdoc libjs-underscore libjsoncpp-dev libkadm5clnt-mit9 libkadm5srv-mit9 libkdb5-8 libkmlbase1 libkmldom1 libkmlengine1 liblapack3 liblzma-dev libminizip1 libmirclient-dev libmircommon-dev libmircookie-dev libmircookie2 libmircore-dev libmodplug1 libmp3lame0 libmysqlclient-dev libmysqlclient20 libnetcdf-c++4 libnetcdf-cxx-legacy-dev libnetcdf-dev libnetcdf11 libodbc1 libogdi3.2 libogg-dev libopenjp2-7 libopenjpeg5 libpng12-dev libpq-dev libpq5 libproj9 libprotobuf-dev libpthread-stubs0-dev libqt5clucene5 libqt5concurrent5 libqt5designer5 libqt5designercomponents5 libqt5help5 libqt5opengl5-dev libqt5quickparticles5 libqt5quickwidgets5 libqt5webkit5-dev libschroedinger-1.0-0 libshine3 libsm-dev libsnappy1v5 libsoxr0 libspatialite-dev libspatialite7 libsqlite3-dev libssh-gcrypt-4 libssl-dev libssl-doc libsuperlu4 libswresample-dev libswresample-ffmpeg1 libswscale-dev libswscale-ffmpeg3 libsz2 libtheora-dev libtiff5-dev libtiffxx5 libtwolame0 liburiparser1 libva1 libvdpau1 libvtk6-dev libvtk6-java libvtk6-qt-dev libvtk6.2 libvtk6.2-qt libwayland-bin libwayland-dev libwebp-dev libwebpdemux1 libx11-dev libx11-doc libx11-xcb-dev libx264-148 libx265-79 libxau-dev libxcb-dri2-0-dev libxcb-dri3-dev libxcb-glx0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev libxcb-sync-dev libxcb-xfixes0-dev libxcb1-dev libxdamage-dev libxdmcp-dev libxdmf-dev libxdmf2 libxerces-c-dev libxerces-c3.1 libxext-dev libxfixes-dev libxft-dev libxkbcommon-dev libxml2-dev libxrender-dev libxshmfence-dev libxss-dev libxt-dev libxvidcore4 libxxf86vm-dev libzvbi-common libzvbi0 mesa-common-dev mesa-vdpau-drivers mysql-common odbcinst odbcinst1debian2 proj-bin proj-data python-attr python-autobahn python-cffi-backend python-concurrent.futures python-cryptography python-enum34 python-idna python-ipaddress python-lz4 python-mpi4py python-msgpack python-openssl python-pam python-pkg-resources python-pyasn1 python-pyasn1-modules python-serial python-service-identity python-six python-snappy python-trollius python-twisted python-twisted-bin python-twisted-core python-txaio python-vtk6 python-zope.interface qt5-qmake qtbase5-dev qtbase5-dev-tools qtdeclarative5-dev qttools5-dev qttools5-private-dev tcl-dev tcl-vtk6 tcl8.6-dev tk-dev tk8.6-dev unixodbc unixodbc-dev uuid-dev va-driver-all vdpau-driver-all vdpau-va-driver vtk6 x11proto-core-dev x11proto-damage-dev x11proto-dri2-dev x11proto-fixes-dev x11proto-gl-dev x11proto-input-dev x11proto-kb-dev x11proto-render-dev x11proto-scrnsaver-dev x11proto-xext-dev x11proto-xf86vidmode-dev xorg-sgml-doctools xtrans-dev zlib1g-dev`  
   
-#### QHull
+#### QHull  
 ```
 sudo apt-get install libqhull-dev
-```
-QHull Additional Packages: 
-```libqhull libqhull7```
-
-### OpenNI OpenNI2
+```  
+QHull Additional Packages:  
+`libqhull libqhull7`  
+  
+### OpenNI OpenNI2  
 OpenNI and OpenNI2 cannot be installed via apt-get.  
 The sdk binaries and links to git repos may be found at [https://structure.io/openni](https://structure.io/openni).  
-
-#### OpenNI
-First, let's tackle OpenNI:
+  
+#### OpenNI  
+First, let's tackle OpenNI:  
 ```
 git clone https://github.com/OpenNI/OpenNI.git
 cd OpenNI
-```
-Create an ```unstable``` branch to save yourself in the future
+```  
+Create an ```unstable``` branch to save yourself in the future  
 ```
 git checkout -b unstable
-```
-Install OpenNI
+```  
+Install OpenNI  
 ```
 cd Platform/Linux/CreateRedist/
 sudo ./RedistMaker
 cd ../Redist/OpenNI-Bin-Dev-Linux-x64-v1.5.8.5
 sudo ./install.sh
-```
-Note, make sure no upper level directories have spaces in the names.
-```RedistMaker``` cannot handle spaces. ```RedistMaker``` creates an OpenNI distribution in 
+```  
+Note, make sure no upper level directories have spaces in the names.  
+`RedistMaker` cannot handle spaces. `RedistMaker` creates an OpenNI distribution in 
 OpenNI/Platform/Linux/Redist/. There may exist a distribution already, 
-but run ```RedistMaker``` anyway for a fresh one.
-
-#### OpenNI2
-Second, let's take care of OpenNI2:
+but run `RedistMaker` anyway for a fresh one.  
+  
+#### OpenNI2  
+Second, let's take care of OpenNI2:  
 ```
 git clone https://github.com/occipital/OpenNI2.git
-```
-Create an ```unstable``` branch to save yourself in the future
+```  
+Create an `unstable` branch to save yourself in the future  
 ```
 git checkout -b unstable
 make
-```
-Install OpenNI2
+```  
+Install OpenNI2  
 ```
 cd Packaging/Linux/
 sudo ./install.sh
-```
-Add the definitions of ```OPENNI2_INCLUDE``` and ```OPENNI2_REDIST``` from the new 
-```OpenNIDevEnvironment``` to ```~/.bashrc``` manually.
-Add the following definitions to ```~/.bashr``` replace ```root``` with the address of your 
-OpenNI2 directory.
+```  
+Add the definitions of `OPENNI2_INCLUDE` and `OPENNI2_REDIST` from the new 
+`OpenNIDevEnvironment` to `~/.bashrc` manually.  
+Add the following definitions to `~/.bashr` replace `root` with the address of your 
+OpenNI2 directory.  
 ```
 export OPENNI2_INCLUDE=root/OpenNI2/Packaging/Linux/Include
 export OPENNI2_REDIST=root/OpenNI2/Packaging/Linux/Redist
 
 export OPENNI2_INCLUDE_DIRS=root/OpenNI2/Packaging/Linux/Include
 export OPENNI2_LIBRARY=root/OpenNI2/Packaging/Linux/Include
-```
-Lastly,
+```  
+Lastly,  
 ```
 source ~/.bashrch
-```
-
+```  
+  
 ### Point Cloud Library  
-Finally ready to build PCL!
-Clone the pcl git repo
+Finally ready to build PCL!  
+Clone the pcl git repo  
 ```
 git clone https://github.com/PointCloudLibrary/pcl.git
-```
-Create a build directory and compile PCL
+```  
+Create a build directory and compile PCL  
 ```
 cd pcl
 mkdir build && cd build
 ccmake ..
-```
-Configure the cmake file and set the following options:
-~~~~
-
+```  
+Configure the cmake file and set the following options:  
+~~~~  
+  
 ```
 cmake ..
 make -j8
-```
-
-Go get some coffee and check your email.
+```  
+  
+Go get some coffee and check your email.  
+  
