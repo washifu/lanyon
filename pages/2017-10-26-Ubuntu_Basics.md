@@ -51,4 +51,17 @@ Install Package
 ```
 sudo apt-get update
 sudo apt-get install sublime-text-installer
+```  
+  
+### ~/.bashrc
+Open ```~/.bashrc``` with Sublime  
+```
+subl ~/.bashrc
+```  
+Add to end of ```~/.bashrc``` file  
+```
+#----------------------#
+#---   USER ADDED   ---#
+#----------------------#
+alias rebuild='cd .. && rm -r build && mkdir build && cd build && cmake ..'
 ```
