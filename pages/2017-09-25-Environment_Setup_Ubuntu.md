@@ -4,22 +4,22 @@ title: Code Environment Setup
 comments: true
 ---
 
-Install [Ubuntu](https://www.ubuntu.com/download/desktop) 16.04.3 (Any Ubuntu 12+ should be fine)
+Install [Ubuntu](https://www.ubuntu.com/download/desktop) 16.04.3 (Any Ubuntu 12+ should be fine)  
   
-### Get The Basics
+### Get The Basics  
 ```
 sudo apt-get install git g++ cmake cmake-curses-gui
-```
+```  
   
-My apt-get also installed the following additional packages  
+My apt-get also installed the following additional packages:  
 `cmake-data git-man liberror-perl libjsoncpp1`  
-
-### Dependencies
-This thesis is built using the Point Cloud Library.
-+ PCL
-
-### PCL Dependencies
-Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfortable.
+  
+### Dependencies  
+This thesis is built using the Point Cloud Library.  
++ PCL  
+  
+### PCL Dependencies  
+Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfortable.  
 + Boost
 + Eigen
 + FLANN
@@ -27,37 +27,37 @@ Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfor
 + VTK-Qt
 + QHull
 + OpenNI OpenNI2
-
-### More PCL Dependencies
+  
+### More PCL Dependencies  
 + pcap
 + GL GLUT GLEW Xmu Xi
 + Open MPI 
 + LibUSB
 + Phonon
-+ PROJ
-
-### OpenNI Dependencies
++ PROJ  
+  
+### OpenNI Dependencies  
 + Doxygen
 + LibUSB 1.0
 + Graphviz
-+ Mono
-
-### OpenNI2 Dependencies
-+ LibUDEV
-
++ Mono  
+  
+### OpenNI2 Dependencies  
++ LibUDEV  
+  
 + libqt-opengl-dev qt-sdk
 + libgtest-dev mono-complete
 + libsuitesparse-dev  
   
   
-### OpenNI and OpenNI2 Dependencies
-#### Doxygen LibUSB 1.0 Graphviz LibUDEV
+### OpenNI and OpenNI2 Dependencies  
+#### Doxygen LibUSB 1.0 Graphviz LibUDEV  
 ```
 sudo apt-get install doxygen libusb-1.0-0-dev graphviz libudev-dev
-```
-Additional Packages:
-```libclang1-3.6 libllvm3.6v5 libobjc-5-dev libobjc4 libusb-1.0-doc libcdt5 libcgraph6 libgvc6 libgvpr2 libpathplan4```
-
+```  
+Additional Packages:  
+`libclang1-3.6 libllvm3.6v5 libobjc-5-dev libobjc4 libusb-1.0-doc libcdt5 libcgraph6 libgvc6 libgvpr2 libpathplan4`  
+  
 #### Mono
 ```
 sudo apt-get install mono-complete
@@ -84,21 +84,21 @@ sudo apt-get install libflann-dev
 ```  
 FLANN Additional Packages:
 ```libflann1.8```  
-
-#### GL GLUT GLEW XMU XI
+  
+#### GL GLUT GLEW XMU XI  
 ```
 sudo apt-get install freeglut3-dev libglew-dev libxmu-dev libxi-dev
 ```  
-Additional Packages:
-```freeglut libxmu-headers```
-
-#### libpcap
+Additional Packages:  
+```freeglut libxmu-headers```  
+  
+#### libpcap  
 ```
 sudo apt-get install libpcap-dev
-```
-libpcap Additional Packages:
-```libpcap0.8-dev```
-
+```  
+libpcap Additional Packages:  
+```libpcap0.8-dev```  
+  
 #### LibUSB
 ```
 sudo apt-get install libusb-dev
