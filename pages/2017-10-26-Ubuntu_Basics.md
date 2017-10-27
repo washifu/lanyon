@@ -60,7 +60,7 @@ Open ```~/.bashrc``` with Sublime
 subl ~/.bashrc
 ```  
 Add to end of ```~/.bashrc``` file  
-```
+```bash
 #----------------------#
 #---   USER ADDED   ---#
 #----------------------#
