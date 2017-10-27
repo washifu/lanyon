@@ -209,11 +209,18 @@ git clone https://github.com/PointCloudLibrary/pcl.git
 Create a build directory and compile PCL  
 ```
 cd pcl
+git checkout -b unstable
 mkdir build && cd build
 ccmake ..
 ```  
 Configure the cmake file and set the following options:  
-~~~~  
+Toggle `WITH_OPENNI2` to `ON`  
+Press `t` to toggle to advanced options and set  
+```
+OPENNI2_INCLUDE_DIRS    root/OpenNI2/Packaging/Linux/Include
+OPENNI2_LIBRARY         root/OpenNI2/Packaging/Linux/Include
+```  
+where `root` is the path to the root directory for OpenNI2.  
   
 ```
 cmake ..
