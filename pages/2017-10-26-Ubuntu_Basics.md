@@ -18,6 +18,7 @@ and in terminal, run
 ```
 sudo ./vmware-install.pl
 ```  
+Hit enter for all the default options.  
 Restart the VM.  
 The shared directory is located in ```/mnt/hgfs/```.
 Setup a shared directory in host computer in the ```Sharing``` settings for the VM in VMware.  
