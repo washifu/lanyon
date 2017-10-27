@@ -121,13 +121,6 @@ Phonon Additional Packages:
 sudo apt-get install mpi-default-dev
 ```  
   
-### Java  
-```
-sudo apt-get install openjdk-8-jdk
-```  
-Java Additional Packages:
-`ca-certificates-java fonts-dejavu-extra java-common openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless`
-  
 #### VTK-Qt  
 ```
 sudo apt-get install libvtk6-qt-dev
@@ -141,6 +134,13 @@ sudo apt-get install libqhull-dev
 ```  
 QHull Additional Packages:  
 `libqhull libqhull7`  
+  
+#### Java  
+```
+sudo apt-get install openjdk-8-jdk
+```  
+Java Additional Packages:
+`ca-certificates-java fonts-dejavu-extra java-common openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless`
   
 ### OpenNI OpenNI2  
 OpenNI and OpenNI2 cannot be installed via apt-get.  
