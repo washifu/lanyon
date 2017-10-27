@@ -41,8 +41,7 @@ Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfor
 + Graphviz
 + Mono
 + Java (openjdk)
-  
-### OpenNI2 Dependencies  
+<!-- ### OpenNI2 Dependencies  -->
 + LibUDEV  
   
 + libqt-opengl-dev qt-sdk
@@ -50,7 +49,7 @@ Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfor
 + libsuitesparse-dev  
   
   
-### OpenNI and OpenNI2 Dependencies  
+### OpenNI <!--and OpenNI2 Dependencies-->  
 #### Doxygen LibUSB 1.0 Graphviz LibUDEV  
 ```
 sudo apt-get install doxygen libusb-1.0-0-dev graphviz libudev-dev
@@ -142,8 +141,8 @@ sudo apt-get install openjdk-8-jdk
 Java Additional Packages:  
 `ca-certificates-java fonts-dejavu-extra java-common openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless`  
   
-### OpenNI OpenNI2  
-OpenNI and OpenNI2 cannot be installed via apt-get.  
+### OpenNI <!--OpenNI2-->  
+OpenNI <!--and OpenNI2-->cannot be installed via apt-get.  
 The sdk binaries and links to git repos may be found at [https://structure.io/openni](https://structure.io/openni).  
   
 #### OpenNI  
@@ -168,6 +167,7 @@ Note, make sure no upper level directories have spaces in the names.
 OpenNI/Platform/Linux/Redist/. There may exist a distribution already, 
 but run `RedistMaker` anyway for a fresh one.  
   
+<!--
 #### OpenNI2  
 Second, let's take care of OpenNI2:  
 ```
@@ -191,7 +191,6 @@ OpenNI2 directory.
 ```
 export OPENNI2_INCLUDE=root/OpenNI2/Packaging/Linux/Include
 export OPENNI2_REDIST=root/OpenNI2/Packaging/Linux/Redist
-
 export OPENNI2_INCLUDE_DIRS=root/OpenNI2/Packaging/Linux/Include
 export OPENNI2_LIBRARY=root/OpenNI2/Packaging/Linux/Include
 ```  
@@ -199,6 +198,7 @@ Lastly,
 ```
 source ~/.bashrch
 ```  
+-->
   
 ### Point Cloud Library  
 Finally ready to build PCL!  
@@ -214,6 +214,8 @@ mkdir build && cd build
 ccmake ..
 ```  
 Configure the cmake file and set the following options:  
+Make sure `WITH_OPENNI` is `ON`  
+<!--
 Toggle `WITH_OPENNI2` to `ON`  
 Press `t` to toggle to advanced options and set  
 ```
@@ -221,7 +223,7 @@ OPENNI2_INCLUDE_DIRS    root/OpenNI2/Packaging/Linux/Include
 OPENNI2_LIBRARY         root/OpenNI2/Packaging/Linux/Include
 ```  
 where `root` is the path to the root directory for OpenNI2.  
-  
+-->
 ```
 cmake ..
 make -j8
