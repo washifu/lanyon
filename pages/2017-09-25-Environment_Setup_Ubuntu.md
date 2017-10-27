@@ -139,8 +139,8 @@ QHull Additional Packages:
 ```
 sudo apt-get install openjdk-8-jdk
 ```  
-Java Additional Packages:
-`ca-certificates-java fonts-dejavu-extra java-common openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless`
+Java Additional Packages:  
+`ca-certificates-java fonts-dejavu-extra java-common openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless`  
   
 ### OpenNI OpenNI2  
 OpenNI and OpenNI2 cannot be installed via apt-get.  
