@@ -23,7 +23,6 @@ Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfor
 + Boost
 + Eigen
 + FLANN
-+ openjdk
 + VTK-Qt
 + QHull
 + OpenNI OpenNI2
@@ -40,7 +39,8 @@ Sadly, PCL has a ton of dependencies, so cancel your next meeting and get comfor
 + Doxygen
 + LibUSB 1.0
 + Graphviz
-+ Mono  
++ Mono
++ Java (openjdk)
   
 ### OpenNI2 Dependencies  
 + LibUDEV  
@@ -120,6 +120,13 @@ Phonon Additional Packages:
 ```
 sudo apt-get install mpi-default-dev
 ```  
+  
+### Java  
+```
+sudo apt-get install openjdk-8-jdk
+```  
+Java Additional Packages:
+`ca-certificates-java fonts-dejavu-extra java-common openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless`
   
 #### VTK-Qt  
 ```
