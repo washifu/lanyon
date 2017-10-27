@@ -172,6 +172,7 @@ but run `RedistMaker` anyway for a fresh one.
 Second, let's take care of OpenNI2:  
 ```
 git clone https://github.com/occipital/OpenNI2.git
+cd OpenNI2
 ```  
 Create an `unstable` branch to save yourself in the future  
 ```
